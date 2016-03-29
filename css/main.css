@@ -33,4 +33,20 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
+
+}
+
+.linify {
+    animation: linify 1s;
+}
+
+@keyframes linify {
+
+  0%{
+
+    stroke-dasharray: 0, 480;
+  }
+  100% {
+    stroke-dasharray: 500, 480;
+  }
 }

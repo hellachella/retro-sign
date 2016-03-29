@@ -1,5 +1,13 @@
 var $svg = $('svg');
+var $lines = $('.lines');
+var $btn = $('.btn')
 
+$btn.on('click', function () {
+  $lines.addClass('linify');
+  $lines.removeClass('lines');
+});
+
+/*
 $('.btn').on('click', function () {
   if ($svg.hasClass('is-engaged')) {
     $svg.addClass('is-disengaged');
@@ -9,3 +17,4 @@ $('.btn').on('click', function () {
     $svg.removeClass('is-disengaged');
   }
 });
+*/
