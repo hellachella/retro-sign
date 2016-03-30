@@ -31,27 +31,26 @@ svg {
   cursor: pointer;
 }
 
-
-.btn:nth-child(2){
-  fill: #f60;
-}
-
 .lines path {
   stroke-dasharray: 0, 480;
-
 }
 
 .linify {
-    animation: linify 1s;
+  animation: linify 1s;
 }
 
 @keyframes linify {
 
-  0%{
+  0% {
 
     stroke-dasharray: 0, 480;
   }
+
   100% {
     stroke-dasharray: 500, 480;
   }
+}
+
+.engage {
+  transition: all 3s;
 }
