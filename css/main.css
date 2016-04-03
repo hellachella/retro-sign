@@ -31,6 +31,11 @@ svg {
   cursor: pointer;
 }
 
+.btn path:last-child:hover {
+  fill: #f60;
+}
+
+
 .lines path {
   stroke-dasharray: 0, 480;
 }
