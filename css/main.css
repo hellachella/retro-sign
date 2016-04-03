@@ -47,46 +47,42 @@ svg {
   }
 
   100% {
-    stroke-dasharray: 500, 480;
+    stroke-dasharray: 480, 480;
   }
 }
 
-
-
 .is-engaged path:nth-child(6) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .5s;
 }
 
 .is-engaged path:nth-child(1) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .5s;
 }
 
 .is-engaged path:nth-child(2) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .75s;
 }
 
 .is-engaged path:nth-child(5) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .75s;
 }
+
 .is-engaged path:nth-child(3) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: 1s;
 }
 
 .is-engaged path:nth-child(4) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: 1s;
 }
-
-
-
