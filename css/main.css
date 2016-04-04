@@ -31,17 +31,26 @@ svg {
   cursor: pointer;
 }
 
-.btn path:last-child:hover {
-  fill: #f60;
+
+.btn path:last-child:active {
+  transform: scale(1, 1);
+   fill: #f60;
 }
 
+.btn path:last-child:hover {
+ fill: #f60;
+}
+
+.btn:active {
+  transofrm: scale(1,1);
+}
 
 .lines path {
   stroke-dasharray: 0, 480;
 }
 
 .linify {
-  animation: linify 1s;
+  animation: linify 1s forwards;
 }
 
 @keyframes linify {

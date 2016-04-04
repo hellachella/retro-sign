@@ -3,11 +3,6 @@ var $lines = $('.lines');
 var $btn = $('.btn');
 var $engage = $('.engage');
 
-/*
-$btn.on('mouseenter', function () {
-  $(this).children('path:last-child').css('fill', '#f60');
-});
-*/
 
 $btn.on('click', function () {
   $lines.addClass('linify');
